@@ -18,7 +18,7 @@ h1, h2 {
 }
 /*  CONTENEDOR */
 .container {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 60px auto;
     padding: 40px;
     background: #E3D8D9;
@@ -30,6 +30,8 @@ h1, h2 {
 /* HEADER */
 
   header {
+  width: 100%;
+  max-width: 100%;
   text-align: center;
   padding: 25px 0;
   background: linear-gradient(135deg, #3b2a2f, #e3d8d984);
@@ -76,7 +78,7 @@ a:hover {
 
 /* IMÁGENES */
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -299,6 +301,7 @@ header {
 /* MENU DE NAVEGACIÓN */
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
   margin-top: 10px;
@@ -306,6 +309,7 @@ nav {
 
 nav a {
   text-decoration: none;
+  font-size: 14px;
   color: #ffffff;
   font-weight: 600;
   position: relative;
@@ -430,4 +434,8 @@ ul li::before {
   background: #ffffff30;
   padding: 20px;
   border-radius: 10px;
+}
+
+html, body {
+  overflow-x: hidden;
 }
