@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Rodriguez | Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header class="header">
+    <h1>Portafolio</h1>
+
+   <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#objetivo">Objetivo</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#certificaciones">Certificaciones</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<main class="container">
+      
+<div class="perfil">
+
+    <div class="banner">
+        <img src="assets/img/banner.png" alt="Banner creativo">
+    </div>
+
+    <div class="foto-perfil">
+        <img src="assets/img/perfil.png" alt="Foto de perfil">
+    </div>
+
+</div>
+
+<h2>Mi perfil profesional</h2>
+
+<hr>
+
+<!-- SOBRE MI CON FLEXBOX -->
+<section id="sobre-mi" class="sobre-mi">
+  <div class="sobre-mi-contenido">
+    
+    <img src="assets/img/perfil.jpeg">
+
+    <div>
+      <article>
+      <h2>Sobre mí</h2>
+      <p>
+      Soy estudiante de Ingeniería Multimedia. Me considero una persona creativa, con interés en el diseño digital y animación, áreas en las que poco a poco he ido encontrando lo que realmente me gusta.
+
+      En mi tiempo libre disfruto leer, diseñar, la fotografía y la edición, además de bailar, ya que para mí el baile también es una forma de arte y expresión. Estas actividades me permiten desarrollar mi creatividad y tener una visión más amplia al momento de crear.
+
+      Elegí esta carrera porque me llamó la atención la combinación entre tecnología y creatividad. 
+    </p>
+</article>
+    </div>
+
+  </div>
+</section>
+
+<section id="objetivo">
+  <h2>Objetivo profesional</h2>
+<p>
+Mi objetivo profesional es desarrollarme como ingeniera multimedia en el área de animación y diseño digital, enfocándome especialmente en el desarrollo web, la fotografía y la edición. Busco crear proyectos que combinen creatividad y tecnología, donde pueda expresar ideas propias y generar experiencias visuales atractivas.
+
+Quiero seguir aprendiendo y fortaleciendo mis habilidades, participando en proyectos que me permitan crecer profesionalmente y aportar soluciones creativas e innovadoras.
+</p>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+
+  <h3>Habilidades tecnicas</h3>
+  <ul>
+    <li>HTML y css básico</li>
+    <li>Edición de video y fotografia</li>
+    <li>Adobe Illustrator</li>
+    <li>Adobe After Effects</li> 
+    <li>Animación 2D</li> 
+    <li>Maya y Blender</li> 
+    <li>Python y Java básico</li> 
+    <li>Diseño digital</li>
+    <li>Creación y analisis de bases de datos</li>
+    <li>Conceptos básicos de programación</li>
+  </ul>
+
+  <h3>Habilidades personales</h3>
+  <ul>
+    <li>Responsabilidad</li>
+    <li>Trabajo en equipo</li>
+    <li>Creatividad</li>
+    <li>Organización</li>
+    <li>Proactividad</li>
+    <li>Empatía</li>
+    <li>Atención al detalle</li>
+    <li>Capacidad de aprendizaje continuo</li>
+  </ul>
+</section>
+
+<section id="certificaciones">
+  <h2>Certificaciones</h2>
+    <ul>
+    <li>Técnico en Programación de Software - SENA</li>
+    <li>Producción de imágenes digitales - SENA</li>
+    <li>Creación de páginas web con HTML y CSS- Microsoft</li>
+    <li>Substance 3D Stager - Adobe</li>
+    <li>Animaciones multimedia e interactivas - Adobe</li>
+    <li>Protect against security threats - Azure</li>
+ </ul>
+</section>
+
+
+<!-- PROYECTOS CON FLEXBOX -->
+<section id="proyectos">
+  <h2>Proyectos</h2>
+
+  <div class="contenedor-proyectos">
+
+    <article>
+      <img src="assets/img/proyecto1.jpeg">
+      <h3>Creación de personajes en Maya</h3>
+      <p>Contenido animado digital.</p>
+    </article>
+
+    <article>
+      <img src="assets/img/proyecto2.png">
+      <h3>Diseño web</h3>
+      <p>Diseño de páginas web.</p>
+    </article>
+
+    <article>
+      <img src="assets/img/proyecto3.jpg">
+      <h3>Edición de video</h3>
+      <p>Producción audiovisual.</p>
+    </article>
+
+  </div>
+
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+
+  <p>
+    Si deseas comunicarte conmigo para proyectos o colaboraciones creativas, completa el siguiente formulario.
+    
+  </p>
+
+  <form>
+
+    <div>
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" required placeholder="Nombre">
+    </div>
+
+    <div>
+      <label for="correo">Correo electrónico</label>
+      <input id="correo" type="email" required placeholder="Correo">
+    </div>
+
+    <div>
+      <label for="telefono">Teléfono</label>
+      <input id="telefono" type="tel" placeholder="Número">
+    </div>
+
+    <div>
+      <label for="motivo">Motivo del contacto</label>
+      <select id="motivo" required>
+        <option value="">Selecciona una opción</option>
+        <option value="cotizacion">Cotización de proyecto</option>
+        <option value="colaboracion">Colaboración creativa</option>
+        <option value="empleo">Oportunidad laboral</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="mensaje">Mensaje</label>
+      <textarea 
+        id="mensaje" 
+        required 
+        minlength="20" 
+        maxlength="300"
+        placeholder="Escribe mínimo 20 caracteres">
+      </textarea>
+    </div>
+
+    <div>
+      <label for="fecha">Fecha estimada</label>
+      <input id="fecha" type="date">
+    </div>
+
+    <div>
+      <label for="portafolio">Enlace de referencia</label>
+      <input id="portafolio" type="url" placeholder="https://ejemplo.com">
+    </div>
+
+    <div>
+      <input id="acepto" type="checkbox" required>
+      <label for="acepto">Acepto el tratamiento de datos</label>
+    </div>
+
+    <div>
+      <button type="submit">Enviar mensaje</button>
+    </div>
+
+  </form>
+</section>
+
+<div class="datos-personales">
+  <h3>Mis datos</h3>
+  <ul>
+    <li><strong>Nombre:</strong> Nicole Alejandra Rodriguez Acosta</li>
+    <li><strong>Correo:</strong> nicoole.rod.27@gmail.com</li>
+    <li><strong>Teléfono:</strong> 312 3457653</li>
+    <li><strong>Ciudad:</strong> Bogotá D.C </li>
+  </ul>
+</div>
+</main>
+
+<footer>
+  <hr>
+  <p>© 2026 - PORTAFOLIO | Nicole Rodriguez</p>
+</footer>
+
+</body>
+</html>
